@@ -37,4 +37,13 @@ const arrayOfArrays = [
   [true, true, false, true]
 ]
 ```
+---
 
+## Количество доступных ячеек называют размером или длиной массива. В JavaScript длина массива обычно совпадает с количеством элементов в нем. Массивы хранят свой размер в свойстве length:
+```js
+const infoArray = [
+  'Россия', 'Москва', 144.5, 'Russian ruble', true
+]
+console.log(infoArray.length)
+// 5
+```
