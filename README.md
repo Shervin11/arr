@@ -1,20 +1,40 @@
 # ARR (Array)
+## ARR — Массив — это структура, в которой можно хранить коллекции элементов — чисел, строк, других массивов и так далее
+## Массивы очень похожи на нумерованные списки.
 
-## Description
+## Создадим массив с помощью квадратных скобок [].
 
-ARR is a lightweight, high-performance library for handling arrays in JavaScript. It provides a range of utility functions to manipulate, query, and transform arrays with ease. Whether you're working with simple lists or complex data structures, ARR aims to simplify your development process and improve code readability.
+## К примеру, можно создать пустой массив:
+``` js 
+const guestList = [] // 😭 гостей нет
+```
+## А можно создать сразу с элементами внутри:
 
-## Features
+``` js 
+const theGirlList = [
+  'Серсея', 'Илин Пейн', 'Меррин Трант', 'Дансен', 'Гора'
+]
+```
 
-- Easy-to-use and intuitive API
-- Wide range of array manipulation functions
-- Performance-optimized for large arrays
-- No external dependencies
-- Compatible with modern JavaScript frameworks
+## Элементы могут быть разных типов:
 
-## Installation
+``` js 
+const infoArray = [
+  'Россия', 'Москва', 144.5, 'Russian ruble', true
+]
+```
 
-You can install ARR using npm:
+## Внутри массива могут быть другие массивы:
+
+```js 
+const arrayOfArrays = [
+  'Россия',
+  ['Москва', 'Санкт-Петербург', 'Казань', 'Екатеринбург'],
+  [true, true, false, true]
+]
+```
+
+## 
 
 ```js
 import { sort, filter, map } from 'arr';
