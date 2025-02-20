@@ -17,4 +17,19 @@ ARR is a lightweight, high-performance library for handling arrays in JavaScript
 You can install ARR using npm:
 
 ```bash
-npm install arr
+import { sort, filter, map } from 'arr';
+
+// Sample array
+const numbers = [4, 2, 7, 1, 9, 3];
+
+// Sort the array
+const sortedNumbers = sort(numbers);
+console.log(sortedNumbers); // Output: [1, 2, 3, 4, 7, 9]
+
+// Filter the array
+const filteredNumbers = filter(numbers, num => num > 3);
+console.log(filteredNumbers); // Output: [4, 7, 9]
+
+// Map the array
+const squaredNumbers = map(numbers, num => num * num);
+console.log(squaredNumbers); // Output: [16, 4, 49, 1, 81, 9]
