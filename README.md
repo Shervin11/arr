@@ -78,14 +78,14 @@ console.log(rest) // [30 , 40 , 50]
 ***Spread syntax can be used when all elements from an object or array need to be included in a new array or object, or should be applied one-by-one in a function call's arguments list***
 <br>
 
-
+```js
 let arr = [ 1 , 2 , 3 ]
 let arr2 = [...arr]
 
 arr2.push(4)
 console.log(arr2) // [1 , 2 , 3 , 4]
 console.log(arr) // [1 , 2 , 3]
-
+```
 <br>
 </details>
 
@@ -95,14 +95,14 @@ console.log(arr) // [1 , 2 , 3]
 ***The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.***
 <br>
 
-
+```js
 function myFun(a, b, ...manyMoreArgs) f console.log("a", a); console.log("b", b); console.log("manyMoreArgs" manyMoreArgs); Y
  myFun ("one"
 "tWo"
 "three", "four", "five", "six");
 // Console Output: 1 a, one 1 b tWO // manyMoreArgs
  ["three" "four" "five", "six"]
-
+```
  
 </details>
 ```
