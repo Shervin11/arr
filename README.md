@@ -105,4 +105,3 @@ function myFun(a, b, ...manyMoreArgs) f console.log("a", a); console.log("b", b)
 ```
  
 </details>
-```
